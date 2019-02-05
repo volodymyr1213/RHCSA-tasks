@@ -5,18 +5,18 @@ Tasks:
 	1.0 Change the password for root "1.TestMachine" VM to "rootadm"
 
 	2.0 Please set the following static IP
-		2.1 IP: 192.168.122.140
+		2.1 IP: 192.168.123.122
 		2.2 NETMASK: 255.255.255.0
-		2.3 Gateway: 192.168.122.0
+		2.3 Gateway: 192.163.132.0
 
 	3.0 Download the kernel from following link. The following criteria must also be met:
 		3.1  The updated kernel is the default kernel when the system is rebooted.
 		3.2 The original kernel remains available & bootable on the system.
-            Link: ftp://www.kernel.org/Centos_7/
+            Link: http://repo.mysql.com/yum/mysql-5.5-community/el/7/$basearch/
 
 	4.0 Configure your system's Selinux to Enforcing.
 
-	5.0 Set hostname to net7.example.com
+	5.0 Set hostname to net2.expl.org
 
 	[6.0] .   Create the following users, groups, & group members.
 		
@@ -28,7 +28,7 @@ Tasks:
     
    [6.2] .   .Create the following users, groups and group members.
 		
-    1. User ‘natasha’, ‘hary’ and ‘sarah’ and Group ‘sysadmin’
+                1. User ‘natasha’, ‘hary’ and ‘sarah’ and Group ‘sysadmin’
 		2. The user ‘natasha’ who belongs to the ‘sysadmin’ group as a secondary group.
 		3. User ‘hary’ who also belongs to ‘sysadmin’ as a secondary group.
 		4. User ‘sarah’ who doesnot have access to interactive shell on the system and who is also member of ‘sysadmin’ group.
